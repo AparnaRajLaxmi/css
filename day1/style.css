@@ -1,0 +1,46 @@
+.container{
+    height: 75px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+.menubar{
+    width: 60%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.menubar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.toolbar{ 
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.common{
+    color:gray;
+    font-size: 25px;
+}
+
+.size{
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+}
+button{
+    width: 70px;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+input::placeholder{
+    text-align: justify;
+    font-weight: 600;
+}
