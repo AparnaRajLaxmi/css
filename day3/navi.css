@@ -1,0 +1,22 @@
+.Parent{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    border:05px solid red;
+}
+.child1{
+    background-color: black;
+}
+.child2{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+}
+a{
+    color: white;
+    
+}
